@@ -36,8 +36,8 @@ h1 {
 }
 
 .nav>li {
-    padding: 0 19px;
-    letter-spacing: 2.6px;
+    padding: 0 18.5px;
+    letter-spacing: 2.7px;
 }
 
 .nav-item {
@@ -194,16 +194,17 @@ h1 {
     color: #ffffff;
     background-color: #1085e4;
     text-transform: uppercase;
+    margin-left: 122px;
     padding: 17px 44px;
     border-radius: 30px;
     letter-spacing: 2.76px;
 }
 
 .page-subscribe input {
+    margin-left: 27px;
     font-size: 14px;
     font-weight: 400;
     color: #b1c3ee;
-    background-color: #10359f;
 }
 
 .page-subscribe input::placeholder {
@@ -553,4 +554,135 @@ h1 {
 
 .box-price-item ul>li {
     margin-bottom: 14px;
+}
+
+.logo {
+    display: block;
+    background-image: url(../img/logo.png);
+    width: 186px;
+    height: 49px;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 53px;
+    margin-bottom: 304.5px;
+}
+
+.page-header {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 332px 0;
+    position: relative;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-top: 55px;
+    margin-bottom: 305px;
+}
+
+.screen-img {
+    display: block;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    width: 690px;
+    height: 730px;
+    position: absolute;
+    top: 186px;
+    right: 0;
+}
+
+.page-company {
+    background-image: url(../img/company_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-company {
+    list-style-type: none;
+    margin: 0px;
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-company-item {
+    display: block;
+    flex-basis: 18%;
+    background-repeat: no-repeat;
+}
+
+.company-one {
+    background-image: url(../img/token.png);
+    height: 59px;
+}
+
+.company-two {
+    background-image: url(../img/magneto.png);
+    height: 79px;
+}
+
+.company-three {
+    height: 45px;
+    background-image: url(../img/boohoo.png);
+}
+
+.company-four {
+    background-image: url(../img/fractal.png);
+    height: 69px;
+}
+
+.page-subscribe {
+    background: linear-gradient(to right, rgba(5, 57, 105, 1) 0%, rgba(32, 124, 229, 1) 100%);
+    padding: 50px 0 50px 0;
+}
+
+.subscibe-h2 span {
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: #1085e4;
+    margin-top: 65px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.subscibe-h2 {
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+
+.subscribe {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+    max-width: 430px;
+    margin-bottom: 43px;
+}
+
+.flexsss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radius {
+    background: linear-gradient(to right, rgba(5, 57, 105, 1) 0%, rgba(32, 124, 229, 1) 100%);
+    opacity: 1;
+    border: solid 1px;
+    padding: 7px;
+    border-color: #7581a1;
+    border-radius: 40px;
 }

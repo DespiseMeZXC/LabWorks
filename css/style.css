@@ -755,7 +755,15 @@ h1 {
     height: 140px;
     margin-left: -30px;
     margin-bottom: -67px;
-    /* background-position: -30px 0; */
+}
+
+.page-software-icon {
+    display: block;
+    background-image: url(../img/bg3_icon1.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 87px;
+    margin-bottom: -30px;
 }
 
 .page-software .title-h2 {
